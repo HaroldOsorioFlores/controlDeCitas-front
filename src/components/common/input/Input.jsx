@@ -1,8 +1,9 @@
-const Input = ({ placeHolder, label }) => {
+import "./Input.css"
+const Input = ({ placeHolder, label,type }) => {
   return (
     <>
       <label htmlFor={label}>{label} </label>
-      <input type="text" placeholder={placeHolder} id={label} />
+      <input placeholder={placeHolder} id={label} type={type}/>
     </>
   );
 };

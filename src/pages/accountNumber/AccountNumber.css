@@ -1,0 +1,33 @@
+:root {
+    /* colors */
+    --first-color-blue: #219ed3;
+    --second-color-blue: #2ea6b7;
+    --third-color-white: #ffffff;
+    --four-color-black: #000000;
+  }
+  .AccountNumber_page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    height: 100vh;
+    gap: 2rem;
+  }
+
+  .AccountNumber_page .AccountNumber_page-code{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .AccountNumber_page h1 {
+    font-size: 4rem;
+  }
+  .AccountNumber_page h2 {
+    position: relative;
+    right: 17rem;
+  }
+  
+  .AccountNumber_page .AccountNumber_page-code .container-input {
+    display: flex;
+    flex-direction: column;
+  }

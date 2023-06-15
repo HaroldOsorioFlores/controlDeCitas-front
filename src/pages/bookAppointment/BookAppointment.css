@@ -1,0 +1,40 @@
+:root {
+  /* colors */
+  --first-color-blue: #219ed3;
+  --second-color-blue: #2ea6b7;
+  --third-color-white: #ffffff;
+  --four-color-black: #000000;
+}
+.BookAppointment_page {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+  height: 100vh;
+}
+
+.BookAppointment_page .BookAppointment_page-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.BookAppointment_page .BookAppointment_page-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.BookAppointment_page .BookAppointment_page-form .container-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.BookAppointment_page h1 {
+  font-size: 5rem;
+}
+
+.BookAppointment_page .container-hour{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}

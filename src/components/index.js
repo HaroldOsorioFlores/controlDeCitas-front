@@ -7,4 +7,5 @@ export { default as Navbar } from "./container/navbar/Navbar";
 // start common
 export { default as Button_navLink } from "./common/button_navLink/Button_navLink";
 export { default as Input } from "./common/input/Input";
+export { default as Button } from "./common/button/Button";
 // end common
