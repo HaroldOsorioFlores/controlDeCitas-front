@@ -1,9 +1,12 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
+import "./Button_navLink.css";
 
 const Button_navLink = ({ name, routeLink }) => {
   return (
     <>
-      <NavLink to={routeLink}>{name}</NavLink>
+      <Link to={routeLink} className="btn-navlink">
+        {name}
+      </Link>
     </>
   );
 };

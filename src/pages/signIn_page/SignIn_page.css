@@ -1,0 +1,17 @@
+.SignIn_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+
+.SignIn_page h1{
+    font-size: 5rem;
+}
+
+
+.SignIn_page .img_google{
+    width: 2.25rem;
+    height: 2.25rem;
+}

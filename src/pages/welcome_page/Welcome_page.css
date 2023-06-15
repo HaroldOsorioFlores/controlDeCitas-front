@@ -1,0 +1,25 @@
+:root {
+  /* colors */
+  --first-color-blue: #219ed3;
+  --second-color-blue: #2ea6b7;
+  --third-color-white: #ffffff;
+  --four-color-black: #000000;
+}
+
+.Welcome_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+.Welcome_page h1{
+    font-size: 5rem;
+}
+.Welcome_page .container_first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Welcome_page .container_first h2{
+    align-self: self-start;
+}

@@ -1,0 +1,22 @@
+:root {
+  /* colors */
+  --first-color-blue: #219ed3;
+  --second-color-blue: #2ea6b7;
+  --third-color-white: #ffffff;
+}
+
+.btn-navlink {
+  display: flex;
+  background-color: var(--second-color-blue);
+  text-decoration: none;
+  width: 10.875rem;
+  height: 2.625rem;
+  color: var(--third-color-white);
+  border-radius: 0.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-navlink:active {
+  color: red;
+}

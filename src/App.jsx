@@ -1,7 +1,7 @@
 import "./App.css";
 import routes from "./routes/routes"
-import { RouterProvider } from "react-router-dom";
-
+import {  RouterProvider } from "react-router-dom";
+import 'normalize.css';
 function App() {
   return (
     <>
