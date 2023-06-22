@@ -1,0 +1,10 @@
+.section_conocenos{
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    flex-direction: column;
+}
+
+.section_conocenos p{
+    justify-self: self-start;
+}

@@ -1,6 +1,13 @@
 import { createBrowserRouter } from "react-router-dom";
 import { Layout } from "../components";
-import { AccountNumber, BookAppointment, SignIn_page, SignUp_page, Welcome_page } from "../pages";
+import {
+  AccountNumber,
+  BookAppointment,
+  KnowUs,
+  SignIn_page,
+  SignUp_page,
+  Welcome_page,
+} from "../pages";
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -15,16 +22,20 @@ const routes = createBrowserRouter([
         element: <SignIn_page />,
       },
       {
+        path: "/knowUs",
+        element: <KnowUs />,
+      },
+      {
         path: "/signUp_page",
         element: <SignUp_page />,
       },
       {
         path: "/bookAppointment",
-        element: <BookAppointment/>,
+        element: <BookAppointment />,
       },
       {
         path: "/accountNumber",
-        element: <AccountNumber/>,
+        element: <AccountNumber />,
       },
     ],
   },

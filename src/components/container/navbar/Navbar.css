@@ -22,12 +22,25 @@
 .navbar_bot {
   height: 5.353125rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
   padding: 0 5rem;
   gap: 2rem;
   border: solid var(--four-color-black) 0.1rem;
+}
+.navbar_bot .container-nav{
+  display: flex;
+  gap: 2rem;
+}
+
+
+.navbar_bot .container-nav a{
+  text-decoration: none;
+  color: var(--four-color-black);
+}
+.navbar_bot .container-nav a:hover{
+  color: var(--first-color-blue);
 }
 
 .navbar_bot .navbar_bot-buttons {
