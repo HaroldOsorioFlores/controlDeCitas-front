@@ -5,7 +5,7 @@ import { Button, Button_navLink, Input } from "../../components";
 const data_input = [
   { label: "Seleccione mes de cita", placheHolder: "Mes" },
   { label: "Seleccione dia de cita", placheHolder: "Dia" },
-  { label: "Hora", placheHolder: "Hora" },
+  { label: "Selecciona hora de cita", placheHolder: "Hora" },
 ];
 
 const data_hour = [
@@ -17,6 +17,8 @@ const data_hour = [
   { name: "09:00 - 10:00" },
   { name: "09:00 - 10:00" },
 ];
+
+
 const BookAppointment = () => {
   return (
     <>
@@ -33,7 +35,7 @@ const BookAppointment = () => {
                 />
               </div>
             ))}
-            <Button_navLink name="Reservar Cita" routeLink="/accountNumber"/>
+            <Button_navLink name="Reservar Cita" routeLink="/makePayPage" />
           </Form>
           <div>
             <h2>Hora Disponible</h2>

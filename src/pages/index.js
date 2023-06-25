@@ -4,3 +4,5 @@ export { default as SignUp_page } from "./signUp_page/SignUp_page";
 export { default as BookAppointment } from "./bookAppointment/BookAppointment";
 export { default as AccountNumber } from "./accountNumber/AccountNumber";
 export { default as KnowUs } from "./knowUs/KnowUs";
+export { default as ConfirmCite } from "./confirmCite/ConfirmCite";
+export { default as MakePayPage } from "./makePayPage/MakePayPage";

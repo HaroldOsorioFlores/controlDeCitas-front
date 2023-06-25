@@ -1,29 +1,33 @@
 import "./KnowUs.css";
-import odontologia from "../../assets/odontologia.webp";
+import odontologia from "../../assets/consultorioDental.jpg";
 import { useState } from "react";
 const KnowUs = () => {
-  const [setPercy, Percy] = useState(0);
-  const contador_percy = () => {
-    const setPercy = Percy + 1;
-  };
-  const contadorPercy = () => {};
   return (
     <>
-      <div>
-        <img src={odontologia} alt="" />
+      <div className="knowUs-page">
+        <img src={odontologia} alt="" className="page_conocenos-img" />
         <section className="section_conocenos">
-          <h1>Conocenos</h1>
+          <h1>Conócenos</h1>
           <p>
-            En las clínicas dentales Dentix sabemos que la salud de su boca es
-            lo más importante. Pero la salud de su bolsillo también. Por eso nos
-            dedicamos a ofrecer la máxima calidad en nuestros tratamientos
-            dentales a precios muy asequibles. Y sin olvidarnos de la atención
-            personalizada a todos nuestros pacientes.
+            Bienvenido a las clínicas dentales Dientecitos, donde nos apasiona
+            cuidar de tu salud bucal. Nos enorgullece ofrecer tratamientos
+            dentales de la más alta calidad a precios asequibles, para que
+            puedas disfrutar de una sonrisa radiante sin preocupaciones
+            financieras. Nuestro equipo de profesionales altamente capacitados
+            se dedica a brindar una atención personalizada a todos nuestros
+            pacientes. Entendemos que cada persona es única, y nos comprometemos
+            a escuchar tus necesidades y diseñar un plan de tratamiento adaptado
+            a ti. Valoramos tu confianza y te aseguramos que serás atendido con
+            respeto, calidez y comprensión en cada visita. En Dientecitos,
+            invertimos en tecnología de vanguardia y utilizamos materiales de
+            calidad para asegurar resultados duraderos y efectivos. Nuestro
+            objetivo es superar tus expectativas y proporcionarte una
+            experiencia dental cómoda y libre de estrés. Nuestro personal está
+            capacitado para explicarte cada paso del proceso de manera clara y
+            detallada, para que te sientas informado y tranquilo durante todo el
+            tratamiento. 
           </p>
         </section>
-
-        <button onClick={() => contador_percy}>Percy</button>
-        <div>{Percy}</div>
       </div>
     </>
   );

@@ -29,7 +29,7 @@ const SignIn_page = () => {
         </Form>
         <div className="SignIn_page-container_google">
           <p>-O-</p>
-          <Link className="container_signInGoogle">
+          <Link className="container_signInGoogle" to="/bookAppointment">
             <img src={googleLogo} alt="Google" className="img_google" /> Iniciar
             Sesion con Google
           </Link>

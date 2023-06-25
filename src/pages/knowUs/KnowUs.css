@@ -1,10 +1,22 @@
-.section_conocenos{
+.knowUs-page .section_conocenos {
     display: flex;
     padding: 1rem;
     text-align: center;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 60rem;
+    text-justify: inter-ideograph;
 }
 
-.section_conocenos p{
-    justify-self: self-start;
+.knowUs-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+
+.knowUs-page .section_conocenos p {
+    text-align: justify;
 }

@@ -3,11 +3,15 @@ import { Layout } from "../components";
 import {
   AccountNumber,
   BookAppointment,
+  ConfirmCite,
   KnowUs,
+  MakePayPage,
   SignIn_page,
   SignUp_page,
   Welcome_page,
 } from "../pages";
+
+
 const routes = createBrowserRouter([
   {
     path: "/",
@@ -15,15 +19,15 @@ const routes = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Welcome_page />,
+        element: <KnowUs />,
       },
       {
         path: "/signIn_page",
         element: <SignIn_page />,
       },
       {
-        path: "/knowUs",
-        element: <KnowUs />,
+        path: "/welcome_page",
+        element: <Welcome_page />,
       },
       {
         path: "/signUp_page",
@@ -36,6 +40,14 @@ const routes = createBrowserRouter([
       {
         path: "/accountNumber",
         element: <AccountNumber />,
+      },
+      {
+        path: "/confirmCite",
+        element: <ConfirmCite />,
+      },
+      {
+        path: "/makePayPage",
+        element: <MakePayPage />,
       },
     ],
   },

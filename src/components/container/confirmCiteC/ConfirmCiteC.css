@@ -1,0 +1,17 @@
+:root {
+    /* colors */
+    --first-color-blue: #219ed3;
+    --second-color-blue: #2ea6b7;
+    --third-color-white: #ffffff;
+    --four-color-black: #000000;
+  }
+
+.component-confirmCite{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: #D4E6F1;
+    width: 50rem;
+    padding: 1rem 4rem;
+}   
+

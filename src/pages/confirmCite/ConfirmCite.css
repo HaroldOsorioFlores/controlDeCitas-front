@@ -1,0 +1,13 @@
+.confirmCite-page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.confirmCite-page .container-confirmCiteC{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
